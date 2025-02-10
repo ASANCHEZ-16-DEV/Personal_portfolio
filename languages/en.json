@@ -1,0 +1,68 @@
+{
+    "menu":{
+        "home":"Home",
+        "about":"About Me",
+        "technologies":"Technologies",
+        "experience":"Experience",
+        "projects":"Projects",
+        "soft-skills":"Soft Skills",
+        "contact":"Contact"
+    },
+    "home":{
+        "presentation":"Hi, I'm <span class='sub-title-color nowrap'>Aitor Sánchez Jimñenez</span>",
+        "open-to-work":"OPEN TO WORK OPPORTUNITIES",
+        "cv":"Download CV",
+        "contact":"Contact"
+    },
+    "about":{
+        "title":"From IT Systems to <span class='nowrap'>Backend Development</span>",
+        "p1":"After completing my two years of vocational training, I decided to specialize in my true passion, software development. I have deepened my knowledge in backend technologies with Java and SpringBoot.",
+        "p2":"Now, I am open to working in a dynamic company where I can contribute my skills, continue developing professionally, and help the team grow, with the goal of building a stable and long-term working relationship."
+    },
+    "technologies":{
+        "title":"Featured Technologies",
+        "tools":"Tools",
+        "mobile":"Mobile"
+    },
+    "experience":{
+        "title":"Experience",
+        "subtitle-1":"Professional",
+        "subtitle-2":"Academic",
+        "professional-1-title":"IT Technician at Instituto Tecnológico de Canarias",
+        "professional-1-subtitle":"Internship [Gran Canaria, Spain] [IT/ Sustainable Development Sector]",
+        "professional-1-p":"Responsible for managing and maintaining the IT infrastructure in one of the offices of the Instituto Tecnológico de Canarias. My role included providing technical support to employees (both remotely and on-site), reviewing the network infrastructure, printers, and installing new IT equipment.",
+        "professional-1-li-2":"I provided technical support to employees in the use of IT systems, management software, and communication tools, troubleshooting issues and ensuring operational continuity.",
+        "professional-1-li-3":"I advised employees on resolving recurring incidents, reducing support requests by 25%.",
+        "professional-1-li-4":"This experience allowed me to better understand how users interact with applications, helping me develop more intuitive and user-friendly software.",
+        "academic-pretitle1":"High-Level Technician in",
+        "academic-1-title":"Microcomputer Systems and Networks",
+        "academic-1-subtitle":"2020 - 2022 CIFP Villa de Agüimes [Gran Canaria, Spain]",
+        "academic-1-p":"This training provided me with general IT knowledge, giving me a broad perspective on various fields within the IT sector.",
+        "academic-pretitle2":"Mid-Level Technician in",
+        "academic-2-title":"Multiplatform Application Development",
+        "academic-2-subtitle":"2022 - 2024 CIFP Villa de Agüimes [Gran Canaria, Spain]",
+        "academic-2-p":"I acquired a solid foundation in software development and explored various specializations within the industry. This allows me to understand the interconnection of different areas and approach projects with a strategic vision."
+    },
+    "projects":{
+        "title":"Projects",
+        "button-code":"CODE",
+        "project-1-title":"FEIX SALONES APP",
+        "project-1-p1":"I developed a mobile application as my final project for vocational training. It focused on appointment management for a hair salon, also providing information about available services. Additionally, it featured a shorts section (short videos) showcasing the best haircuts from the salon.",
+        "project-1-p2":"Currently, the code is publicly available on my GitHub profile, as it is just a prototype application."
+    },
+    "soft-skills":{
+        "title":"Soft Skills",
+        "soft-skill-1-title":"Teamwork",
+        "soft-skill-1-p":"I have cultivated my teamwork skills through various collaborative experiences. Interacting with people from different perspectives has taught me the importance of clear communication, cooperation, and empathy to achieve common goals. These interactions have allowed me to contribute effectively to collective objectives and strengthen my interpersonal relationships.",
+        "soft-skill-2-title":"Resilience",
+        "soft-skill-2-p":"I have developed my resilience over time by facing difficult situations and overcoming adversity. Each challenge has taught me to stay calm, learn from experiences, and move forward with determination. This process has strengthened me, enabling me to handle future obstacles with a more positive and focused mindset.",
+        "soft-skill-3-title":"Adaptability",
+        "soft-skill-3-p":"My adaptability has been shaped by exposure to different environments and changing circumstances. I have learned to quickly adjust my approaches and adapt to new situations, seeing change not as a threat but as an opportunity to grow and continuously learn.",
+        "soft-skill-4-title":"Receptivity to Criticism",
+        "soft-skill-4-p":"I have learned to receive constructive criticism by being in contexts where feedback is a crucial part of the improvement process. Over time, I have developed the ability to listen, reflect, and apply others' suggestions effectively, using criticism as a valuable tool for personal and professional growth."
+    },
+    "footer":{
+        "developed":"Developed with <img src='assets/icons/favicon.svg' width='20px' alt='passion'><span style='color: transparent;'>GG</span> by",
+        "code":"Code"
+    }
+}

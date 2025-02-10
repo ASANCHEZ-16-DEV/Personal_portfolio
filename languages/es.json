@@ -1,0 +1,68 @@
+{
+    "menu":{
+        "home":"Inicio",
+        "about":"Sobre mi",
+        "technologies":"Tecnologías",
+        "experience":"Experiencia",
+        "projects":"Proyectos",
+        "soft-skills":"habilidades blandas",
+        "contact":"Contacto"
+    },
+    "home":{
+        "presentation":"Hola, soy <span class='sub-title-color nowrap'>Aitor Sánchez Jimñenez</span>",
+        "open-to-work":"ABIERTO A POSIBILIDADES DE TRABAJO",
+        "cv":"Descargar CV",
+        "contact":"Contacto"
+    },
+    "about":{
+        "title":"De los Sistemas Informáticos al <span class='nowrap'>Desarrollo Backend</span>",
+        "p1":"Tras terminar mis dos cursos de formación profesional decidí especializarme en mi verdadera pasión, el desarrollo de software. He profundizado en un stack de backend con Java y SpringBoot. ",
+        "p2":"Ahora estoy abierto a trabajar en una empresa dinámica donde pueda aportar mis habilidades, seguir desarrollándome profesionalmente y contribuir al crecimiento del equipo, con el objetivo de construir una relación laboral estable y duradera."
+    },
+    "technologies":{
+        "title":"Tecnologías Destacadas",
+        "tools":"Herramientas",
+        "mobile":"Móvil"
+    },
+    "experience":{
+        "title":"Experiencia",
+        "subtitle-1":"Proefesional",
+        "subtitle-2":"Académica",
+        "professional-1-title":"Tecnico Informatico en Instituto Tecnológico de Canarias",
+        "professional-1-subtitle":"Prácticas [Gran Canaria, España] [Sector IT/Desarrollo Sostenible]",
+        "professional-1-p":"Encargado de gestionar y mantener la infraestructura IT una las oficinas de el Instituto Tecnológico de Canarias, mi rol incluía ofrecer soporte técnico a los empleados (remoto o presencial) revisar la infraestructura de red, impresoras y instalar los nuevos equipos informáticos",
+        "professional-1-li-2":"Proporcioné soporte técnico a los empleados en el uso de sistemas informáticos, software de gestión y herramientas de comunicación, resolviendo incidencias y asegurando la continuidad operativa.",
+        "professional-1-li-3":"Asesoré a los empleados en la resolución de incidentes recurrentes, reduciendo las solicitudes de soporte en un 25%.",
+        "professional-1-li-4":"Esta experiencia me permitió entender mejor cómo los usuarios interactúan con las aplicaciones, lo que me ayuda a desarrollar software más intuitivo y enfocado en la usabilidad.",
+        "academic-pretitle1":"Técnico Superior en",
+        "academic-1-title":"Sistemas Microinformáticos y Redes",
+        "academic-1-subtitle":"2020 - 2022 CIFP Villa de Aguimes [Gran Canaria, España]",
+        "academic-1-p":"Esta formación me ha dado un conocimiento general sobre la informática, permitiéndome una perspectiva general de muchos ambitos en el sector IT",
+        "academic-pretitle2":"Técnico Medio en",
+        "academic-2-title":"Desarrollo de Aplicaciones Multiplataforma",
+        "academic-2-subtitle":"2022 - 2024 CIFP Villa de Aguimes [Gran Canaria, España]",
+        "academic-2-p":"Adquirí una base sólida en el desarrollo de software y exploré diversas especializaciones del sector. Esto me permite comprender la interconexión de sus distintas áreas y abordar proyectos con una visión estratégica."
+    },
+    "projects":{
+        "title":"Proyectos",
+        "button-code":"CODÍGO",
+        "project-1-title":"FEIX SALONES APP",
+        "project-1-p1":"Desarrollé una aplicación móvil para mi proyecto de final de curso que consistía en la gestión de citas para una peluquería, proporcionando además información sobre los servicios que se ofrecían, incluía además un apartado de shorts (videos cortos) donde se mostraban los mejores cortes de la misma ",
+        "project-1-p2":"Actualmente el código está público en mi perfil de GitHub ya que es solo un prototípo de aplicación"
+    },
+    "soft-skills":{
+        "title":"Habilidades Blandas",
+        "soft-skill-1-title":"Trabajo en equipo",
+        "soft-skill-1-p": "He cultivado mi habilidad para trabajar en equipo a través de diversas experiencias colaborativas. Interactuar con personas de diferentes perspectivas me ha enseñado la importancia de la comunicación clara, la cooperación y la empatía para alcanzar metas comunes. Estas interacciones me han permitido contribuir eficazmente a los objetivos colectivos y fortalecer mis relaciones interpersonales.",
+        "soft-skill-2-title":"Resiliencia",
+        "soft-skill-2-p": "He desarrollado mi resiliencia a lo largo del tiempo al enfrentar situaciones difíciles y superar adversidades. Cada desafío me ha enseñado a mantener la calma, aprender de las experiencias y continuar con determinación. Este proceso me ha fortalecido, permitiéndome manejar futuros obstáculos con una mentalidad más positiva y enfocada.",
+        "soft-skill-3-title":"Adaptabilidad",
+        "soft-skill-3-p": "Mi capacidad de adaptabilidad se ha formado al haberme expuesto a diferentes entornos y circunstancias cambiantes. He aprendido a ajustar rápidamente mis enfoques y a adaptarme a nuevas situaciones, viendo el cambio no como una amenaza, sino como una oportunidad para crecer y aprender continuamente.",
+        "soft-skill-4-title":"Receptividad a críticas",
+        "soft-skill-4-p": "He aprendido a recibir críticas constructivas al estar en contextos donde el feedback es parte del proceso de mejora. A lo largo del tiempo, he desarrollado la habilidad de escuchar, reflexionar y aplicar las sugerencias de los demás, utilizando las críticas como una herramienta valiosa para el crecimiento personal y profesional."
+    },
+    "footer":{
+        "developed":"Desarrollado con <img src='assets/icons/favicon.svg' width='20px' alt='pasión'><span style='color: transparent;'>GG</span> por",
+        "code":"Código"
+    }
+}
