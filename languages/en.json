@@ -24,16 +24,32 @@
         "tools":"Tools",
         "mobile":"Mobile"
     },
-    "experience":{
-        "title":"Experience",
-        "subtitle-1":"Professional",
-        "subtitle-2":"Academic",
-        "professional-1-title":"IT Technician at Instituto Tecnológico de Canarias",
-        "professional-1-subtitle":"Internship [Gran Canaria, Spain] [IT/ Sustainable Development Sector]",
-        "professional-1-p":"Responsible for managing and maintaining the IT infrastructure in one of the offices of the Instituto Tecnológico de Canarias. My role included providing technical support to employees (both remotely and on-site), reviewing the network infrastructure, printers, and installing new IT equipment.",
-        "professional-1-li-2":"I provided technical support to employees in the use of IT systems, management software, and communication tools, troubleshooting issues and ensuring operational continuity.",
-        "professional-1-li-3":"I advised employees on resolving recurring incidents, reducing support requests by 25%.",
-        "professional-1-li-4":"This experience allowed me to better understand how users interact with applications, helping me develop more intuitive and user-friendly software.",
+    "experience": {
+    "title": "Experience",
+    "subtitle-1": "Professional",
+    "subtitle-2": "Academic",
+    
+    "professional-1-title": "IT Technician at Instituto Tecnológico de Canarias",
+    "professional-1-subtitle": "Internship [Gran Canaria, Spain] [IT/Sustainable Development Sector]",
+    "professional-1-p": "Responsible for managing and maintaining the IT infrastructure in the offices of Instituto Tecnológico de Canarias, my role included providing technical support to employees (remote or on-site), reviewing network infrastructure, printers, and installing new computer equipment.",
+    "professional-1-li-2": "Provided technical support to employees in the use of computer systems, management software, and communication tools, resolving issues and ensuring operational continuity.",
+    "professional-1-li-3": "Advised employees on resolving recurring incidents, thus reducing support requests by 25%.",
+    
+    "professional-2-title": "Web Developer at Singular Factory",
+    "professional-2-subtitle": "[Gran Canaria, Spain] [Software Development]",
+    "professional-2-p": "I worked on a website that was an eSports portal where video game competitions were organized between companies to increase networking. The site had features like displaying match statistics of different teams composed of companies, organizing matches, assigning prizes to winners, etc.",
+    "professional-2-li-1": "I was responsible for developing the graphical interface and the functionalities for statistics.",
+    "professional-2-li-2": "The tools used were HTML, CSS, JavaScript, and Bootstrap, with PostgreSQL as the database.",
+    "professional-2-li-3": "Implemented unit and integration tests to ensure code quality (refactoring), as well as its proper functionality.",
+    
+    "professional-3-title": "SQL Developer and Administrator at MRP-Koder",
+    "professional-3-subtitle": "[Kraków, Poland] [Software Development]",
+    "professional-3-p": "Developing and managing SQL databases to improve the efficiency and performance of Comarch ERP modules.",
+    "professional-3-li-1": "Designed and optimized SQL queries to improve response times in business applications.",
+    "professional-3-li-2": "Managed relational databases, ensuring data integrity and security.",
+    "professional-3-li-3": "Automated processes using stored procedures and triggers in SQL.",
+    "professional-3-li-4": "Collaborated with the development team to integrate efficient database solutions into ERP systems.",
+
         "academic-pretitle1":"High-Level Technician in",
         "academic-1-title":"Microcomputer Systems and Networks",
         "academic-1-subtitle":"2020 - 2022 CIFP Villa de Agüimes [Gran Canaria, Spain]",
@@ -44,7 +60,7 @@
         "academic-2-p":"I acquired a solid foundation in software development and explored various specializations within the industry. This allows me to understand the interconnection of different areas and approach projects with a strategic vision."
     },
     "projects":{
-        "title":"Projects",
+        "title":"Personal Projects",
         "button-code":"CODE",
         "project-1-title":"FEIX SALONES APP",
         "project-1-p1":"I developed a mobile application as my final project for vocational training. It focused on appointment management for a hair salon, also providing information about available services. Additionally, it featured a shorts section (short videos) showcasing the best haircuts from the salon.",

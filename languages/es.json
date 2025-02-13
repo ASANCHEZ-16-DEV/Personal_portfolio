@@ -24,27 +24,45 @@
         "tools":"Herramientas",
         "mobile":"Móvil"
     },
-    "experience":{
-        "title":"Experiencia",
-        "subtitle-1":"Proefesional",
-        "subtitle-2":"Académica",
-        "professional-1-title":"Tecnico Informatico en Instituto Tecnológico de Canarias",
-        "professional-1-subtitle":"Prácticas [Gran Canaria, España] [Sector IT/Desarrollo Sostenible]",
-        "professional-1-p":"Encargado de gestionar y mantener la infraestructura IT una las oficinas de el Instituto Tecnológico de Canarias, mi rol incluía ofrecer soporte técnico a los empleados (remoto o presencial) revisar la infraestructura de red, impresoras y instalar los nuevos equipos informáticos",
-        "professional-1-li-2":"Proporcioné soporte técnico a los empleados en el uso de sistemas informáticos, software de gestión y herramientas de comunicación, resolviendo incidencias y asegurando la continuidad operativa.",
-        "professional-1-li-3":"Asesoré a los empleados en la resolución de incidentes recurrentes, reduciendo las solicitudes de soporte en un 25%.",
-        "professional-1-li-4":"Esta experiencia me permitió entender mejor cómo los usuarios interactúan con las aplicaciones, lo que me ayuda a desarrollar software más intuitivo y enfocado en la usabilidad.",
-        "academic-pretitle1":"Técnico Superior en",
-        "academic-1-title":"Sistemas Microinformáticos y Redes",
-        "academic-1-subtitle":"2020 - 2022 CIFP Villa de Aguimes [Gran Canaria, España]",
-        "academic-1-p":"Esta formación me ha dado un conocimiento general sobre la informática, permitiéndome una perspectiva general de muchos ambitos en el sector IT",
-        "academic-pretitle2":"Técnico Medio en",
-        "academic-2-title":"Desarrollo de Aplicaciones Multiplataforma",
-        "academic-2-subtitle":"2022 - 2024 CIFP Villa de Aguimes [Gran Canaria, España]",
-        "academic-2-p":"Adquirí una base sólida en el desarrollo de software y exploré diversas especializaciones del sector. Esto me permite comprender la interconexión de sus distintas áreas y abordar proyectos con una visión estratégica."
-    },
+    "experience": {
+    "title": "Experiencia",
+    "subtitle-1": "Profesional",
+    "subtitle-2": "Académica",
+    
+    "professional-1-title": "Técnico Informático en Instituto Tecnológico de Canarias",
+    "professional-1-subtitle": "Prácticas [Gran Canaria, España] [Sector IT/Desarrollo Sostenible]",
+    "professional-1-p": "Encargado de gestionar y mantener la infraestructura IT en las oficinas del Instituto Tecnológico de Canarias, mi rol incluía ofrecer soporte técnico a los empleados (remoto o presencial), revisar la infraestructura de red, impresoras y instalar los nuevos equipos informáticos.",
+    "professional-1-li-2": "Proporcioné soporte técnico a los empleados en el uso de sistemas informáticos, software de gestión y herramientas de comunicación, resolviendo incidencias y asegurando la continuidad operativa.",
+    "professional-1-li-3": "Asesoré a los empleados en la resolución de incidentes recurrentes, reduciendo así las solicitudes de soporte en un 25%.",
+    
+    "professional-2-title": "Web Developer en Singular Factory",
+    "professional-2-subtitle": "[Gran Canaria, España] [Desarrollo de software]",
+    "professional-2-p": "Trabajé en una página web que consistía en un portal de eSports (Deportes Electrónicos) en el que se organizaban competiciones de videojuegos entre empresas con el objetivo de aumentar el networking entre las mismas. La página tenía funciones como mostrar estadísticas de las partidas de los diferentes equipos compuestos por las empresas, organizar las partidas, asignar los premios a los ganadores, etc.",
+    "professional-2-li-1": "Me encargué de desarrollar la interfaz gráfica y las funcionalidades de las estadísticas.",
+    "professional-2-li-2": "Las herramientas utilizadas fueron HTML, CSS, JavaScript y Bootstrap, con PostgreSQL como base de datos.",
+    "professional-2-li-3": "Implementé pruebas unitarias y de integración para garantizar calidad del código (refactorización), además de su correcto funcionamiento.",
+    
+    "professional-3-title": "Desarrollador y Administrador SQL en MRP-Koder",
+    "professional-3-subtitle": "[Cracovia, Polonia] [Desarrollo de software]",
+    "professional-3-p": "Encargado de desarrollar y administrar bases de datos SQL para mejorar la eficiencia y el rendimiento de modulos de Comarch ERP.",
+    "professional-3-li-1": "Diseñé y optimicé consultas SQL para mejorar tiempos de respuesta en aplicaciones empresariales.",
+    "professional-3-li-2": "Administré bases de datos relacionales, asegurando la integridad y seguridad de los datos.",
+    "professional-3-li-3": "Automatización de procesos mediante procedimientos almacenados y triggers en SQL.",
+    "professional-3-li-4": "Colaboré con el equipo de desarrollo para integrar soluciones eficientes de bases de datos en los sistemas ERP.",
+    
+    "academic-pretitle1": "Técnico Superior en",
+    "academic-1-title": "Sistemas Microinformáticos y Redes",
+    "academic-1-subtitle": "2020 - 2022 CIFP Villa de Aguimes [Gran Canaria, España]",
+    "academic-1-p": "Esta formación me ha dado un conocimiento general sobre la informática, permitiéndome una perspectiva general de muchos ámbitos en el sector IT.",
+    
+    "academic-pretitle2": "Técnico Medio en",
+    "academic-2-title": "Desarrollo de Aplicaciones Multiplataforma",
+    "academic-2-subtitle": "2022 - 2024 CIFP Villa de Aguimes [Gran Canaria, España]",
+    "academic-2-p": "Adquirí una base sólida en el desarrollo de software y exploré diversas especializaciones del sector. Esto me permite comprender la interconexión de sus distintas áreas y abordar proyectos con una visión estratégica."
+  },
+
     "projects":{
-        "title":"Proyectos",
+        "title":"Proyectos Personales",
         "button-code":"CODÍGO",
         "project-1-title":"FEIX SALONES APP",
         "project-1-p1":"Desarrollé una aplicación móvil para mi proyecto de final de curso que consistía en la gestión de citas para una peluquería, proporcionando además información sobre los servicios que se ofrecían, incluía además un apartado de shorts (videos cortos) donde se mostraban los mejores cortes de la misma ",

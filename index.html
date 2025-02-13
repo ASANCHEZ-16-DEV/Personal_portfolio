@@ -169,222 +169,308 @@
     </section>
 
 
-    <!-- Skill Section -->
-    <section id="technologies" data-scroll-index="2" class="section bg-gray">
-      <div class="container">
-        <div class="section-heading">
-          <h2 data-section="technologies" data-value="title">Tecnologías Destacadas</h2>
+<!-- Skill Section -->
+<section id="technologies" data-scroll-index="2" class="section bg-gray">
+  <div class="container">
+    <div class="section-heading">
+      <h2 data-section="technologies" data-value="title">Tecnologías Destacadas</h2>
+    </div>
+
+    <div class="row gy-5 justify-content-around">
+      <!-- Frontend -->
+      <div class="col-lg-5">
+        <h3 class="section-sub-heading">Frontend</h3>
+        <div class="skills-container">
+          <!-- Contenedor de Skills Actuales -->
+          <div id="current-skills" class="skills-box">
+            <div class="row g-3">
+              <div class="col-6 col-md-4 col-lg-6">
+                <div class="feature-box feature-box-small bg-1">
+                  <div class="icon">
+                    <img src="assets/icons/HTML5.svg" alt="">
+                  </div>
+                  <h4>HTML5</h4>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-6">
+                <div class="feature-box feature-box-small bg-2">
+                  <div class="icon">
+                    <img src="assets/icons/CSS3.svg" alt="">
+                  </div>
+                  <h4>CSS3</h4>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-6">
+                <div class="feature-box feature-box-small bg-3">
+                  <div class="icon">
+                    <img src="assets/icons/React.svg" alt="">
+                  </div>
+                  <h4>React</h4>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-6">
+                <div class="feature-box feature-box-small bg-4">
+                  <div class="icon">
+                    <img src="assets/icons/tailwind.svg" alt="">
+                  </div>
+                  <h4>Tailwind CSS</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contenedor de Skills Alternativas -->
+          <div id="next-skills" class="skills-box hidden">
+            <div class="row g-3">
+              <div class="col-6 col-md-4 col-lg-6">
+                <div class="feature-box feature-box-small bg-1">
+                  <div class="icon">
+                    <img src="assets/icons/Java.svg" alt="">
+                  </div>
+                  <h4>Java</h4>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-6">
+                <div class="feature-box feature-box-small bg-2">
+                  <div class="icon">
+                    <img src="assets/icons/spring-boot.svg" alt="">
+                  </div>
+                  <h4>Spring Boot</h4>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-6">
+                <div class="feature-box feature-box-small bg-3">
+                  <div class="icon">
+                    <img src="assets/icons/hibernate.svg" alt="">
+                  </div>
+                  <h4>Hibernate</h4>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-6">
+                <div class="feature-box feature-box-small bg-4">
+                  <div class="icon">
+                    <img src="assets/icons/JUnit.svg" alt="">
+                  </div>
+                  <h4>JUnit</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flecha para cambiar las skills -->
+          <button id="change-skills" class="skills-button">
+            &#8594; <!-- Flecha hacia la derecha -->
+          </button>
         </div>
-        <div class="row gy-5 justify-content-around">
-          <!-- Frontend -->
-          <div class="col-lg-5 ">
-            <h3 class="section-sub-heading">Frontend</h3>
-            <div class="skill-box">
-              <div class="row g-3">
-                <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-1">
-                    <div class="icon">
-                      <img src="assets/icons/HTML5.svg" alt="">
-                    </div>
-                    <h4>HTML5</h4>
-                  </div>
+      </div>
+
+      <!-- Backend -->
+      <div class="col-lg-5">
+        <h3 class="section-sub-heading">Backend</h3>
+        <div class="skill-box">
+          <div class="row g-3">
+            <div class="col-6 col-md-4 col-lg-6">
+              <div class="feature-box feature-box-small bg-1">
+                <div class="icon">
+                  <img src="assets/icons/Java.svg" alt="">
                 </div>
-                <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-2">
-                    <div class="icon">
-                      <img src="assets/icons/CSS3.svg" alt="">
-                    </div>
-                    <h4>CSS3</h4>
-                  </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-3">
-                    <div class="icon">
-                      <img src="assets/icons/React.svg" alt="">
-                    </div>
-                    <h4>React</h4>
-                  </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-4">
-                    <div class="icon">
-                      <!-- <i class="bx bxl-html5"></i> -->
-                      <img src="assets/icons/tailwind.svg" alt="">
-                    </div>
-                    <h4>Tailwind CSS</h4>
-                  </div>
-                </div>
-                
+                <h4>Java</h4>
               </div>
             </div>
-          </div>
-          <!-- Backend -->
-          <div class="col-lg-5">
-            <h3 class="section-sub-heading">Backend</h3>
-            <div class="skill-box">
-              <div class="row g-3">
-                <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-1">
-                    <div class="icon">
-                      <img src="assets/icons/Java.svg" alt="">
-                    </div>
-                    <h4>Java</h4>
-                  </div>
+            <div class="col-6 col-md-4 col-lg-6">
+              <div class="feature-box feature-box-small bg-2">
+                <div class="icon">
+                  <img src="assets/icons/spring-boot.svg" alt="">
                 </div>
-                <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-2">
-                    <div class="icon">
-                      <img  src="assets/icons/spring-boot.svg" alt="">
-                    </div>
-                    <h4>Spring Boot</h4>
-                  </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-3">
-                    <div class="icon">
-                      <!-- <i class="bx bxl-html5"></i> -->
-                      <img src="assets/icons/hibernate.svg" alt="">
-                    </div>
-                    <h4>Hibernate</h4>
-                  </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-4">
-                    <div class="icon">
-                      <img src="assets/icons/JUnit.svg" alt="">
-                    </div>
-                    <h4>JUnit</h4>
-                  </div>
-                </div>
+                <h4>Spring Boot</h4>
               </div>
             </div>
-          </div>
-          <!-- Tools -->
-          <div class="col-lg-5">
-            <h3 class="section-sub-heading" data-section="technologies" data-value="tools">Herramientas</h3>
-            <div class="skill-box">
-              <div class="row g-3">
-                <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-1">
-                    <div class="icon">
-                      <img src="assets/icons/Git.svg" alt="">
-                    </div>
-                    <h4>Git</h4>
-                  </div>
+            <div class="col-6 col-md-4 col-lg-6">
+              <div class="feature-box feature-box-small bg-3">
+                <div class="icon">
+                  <img src="assets/icons/hibernate.svg" alt="">
                 </div>
-                <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-2">
-                    <div class="icon">
-                      <img src="assets/icons/GitHub.svg" alt="">
-                    </div>
-                    <h4>GitHub</h4>
-                  </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-3">
-                    <div class="icon">
-                      <img src="assets/icons/postman.svg" alt="">
-                    </div>
-                    <h4>Postman</h4>
-                  </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-4">
-                    <div class="icon">
-                      <img src="assets/icons/docker.svg" alt="">
-                    </div>
-                    <h4>Docker</h4>
-                  </div>
-                </div>
+                <h4>Hibernate</h4>
               </div>
             </div>
-          </div>
-          <!-- Mobile -->
-          <div class="col-lg-5">
-            <h3 class="section-sub-heading" data-section="technologies" data-value="mobile">Mobile</h3>
-            <div class="skill-box">
-              <div class="row g-3">
-                <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-1">
-                    <div class="icon">
-                      <img src="assets/icons/flutter.svg" alt="">
-                    </div>
-                    <h4>Flutter</h4>
-                  </div>
+            <div class="col-6 col-md-4 col-lg-6">
+              <div class="feature-box feature-box-small bg-4">
+                <div class="icon">
+                  <img src="assets/icons/JUnit.svg" alt="">
                 </div>
-                <div class="col-6 col-md-4 col-lg-6">
-                  <div class="feature-box feature-box-small bg-2">
-                    <div class="icon">
-                      <img src="assets/icons/kotlin.svg" alt="">
-                    </div>
-                    <h4>Kotlin</h4>
-                  </div>
-                </div>
+                <h4>JUnit</h4>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
 
-      
-    <!-- Experience Section -->
-    <section  id="experience" data-scroll-index="3" class="section ">
-      <div class="container">
-        <div class="section-heading">
-          <h2 data-section="experience" data-value="title">EXPERIENCIA</h2>
-        </div>
-        <div class="row gy-4">
-          <div class="col-12 col-xl-6">
-            <div></div>
-            <H3 class="section-sub-heading text-center" data-section="experience" data-value="subtitle-1">PROFESIONAL</H3>
-            <div class="feature-box bg-1">
-              <div class="content">
-                <h4 class="mb-1" data-section="experience" data-value="professional-1-title">Tecnico Informatico en Instituto Tecnológico de Canarias</h4>
-                <br>
-                <span class="sub-title-color " data-section="experience" data-value="professional-1-subtitle">Prácticas [Gran Canaria, España] [Sector IT/Desarrollo Sostenible]</span>
-                <br>
-                <p data-section="experience" data-value="professional-1-p">Encargado de gestionar y mantener la infraestructura IT una las oficinas de el Instituto Tecnológico de Canarias, mi rol incluía ofrecer soporte técnico a los empleados (remoto o presencial), revisar la infraestructura de red, impresoras y instalar los nuevos equipos informáticos.</p>
-                <ul class="mt-3">
-                  <li data-section="experience" data-value="professional-1-li-2">Proporcioné soporte técnico a los empleados en el uso de sistemas informáticos, software de gestión y herramientas de comunicación, resolviendo incidencias y asegurando la continuidad operativa.</li>
-                  <br>
-                  <li data-section="experience" data-value="professional-1-li-3">Asesoré a los empleados en la resolución de incidentes recurrentes, reduciendo las solicitudes de soporte en un 25%.</li>
-                  <br>
-                  <li data-section="experience" data-value="professional-1-li-4">Esta experiencia me permitió entender mejor cómo los usuarios interactúan con las aplicaciones, lo que me ayuda a desarrollar software más intuitivo y enfocado en la usabilidad.</li>             
-                </ul>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-12 col-xl-6">
-            <H3 class="section-sub-heading text-center" data-section="experience" data-value="subtitle-2">ACADÉMICA</H3>
-            <div class="row">
-              <div class="col-12">
-                <div class="feature-box bg-2">
-                  <div class="content">
-                    <span data-section="experience" data-value="academic-pretitle1">Técnico Superior en </span>
-                    <h4 class="mb-1" data-section="experience" data-value="academic-2-title">Desarrollo de Aplicaciones Multiplataformas</h4>
-                    <span class="sub-title-color" data-section="experience" data-value="academic-2-subtitle">2022 - 2024 CIFP Villa de Aguimes [Gran Canaria, España]</span>
-                    <p class="mt-3" data-section="experience" data-value="academic-2-p">Adquirí una base sólida en el desarrollo de software y exploré diversas especializaciones del sector. Esto me permite comprender la interconexión de sus distintas áreas y abordar proyectos con una visión estratégica.</p>
-                  </div>
-              </div>
-              <div class="col">
-                <div class="feature-box bg-4 mt-4">
-                  <div class="content">
-                    <span data-section="experience" data-value="academic-pretitle2">Técnico Medio en </span>
-                    <h4 class="mb-1" data-section="experience" data-value="academic-1-title">Sistemas Microinformáticos y Redes</h4>
-                    <span class="sub-title-color" data-section="experience" data-value="academic-1-subtitle">2020 - 2022 CIFP Villa de Aguimes [Gran Canaria, España]</span>
-                    <p class="mt-3" data-section="experience" data-value="academic-1-p">Esta formación me ha dado un conocimiento general sobre la informática, permitiéndome una perspectiva general de muchos ambitos en el sector IT.</p>
-                  </div>
+      <!-- Tools -->
+      <div class="col-lg-5">
+        <h3 class="section-sub-heading" data-section="technologies" data-value="tools">Herramientas</h3>
+        <div class="skill-box">
+          <div class="row g-3">
+            <div class="col-6 col-md-4 col-lg-6">
+              <div class="feature-box feature-box-small bg-1">
+                <div class="icon">
+                  <img src="assets/icons/Git.svg" alt="">
                 </div>
+                <h4>Git</h4>
               </div>
             </div>
+            <div class="col-6 col-md-4 col-lg-6">
+              <div class="feature-box feature-box-small bg-2">
+                <div class="icon">
+                  <img src="assets/icons/GitHub.svg" alt="">
+                </div>
+                <h4>GitHub</h4>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-6">
+              <div class="feature-box feature-box-small bg-3">
+                <div class="icon">
+                  <img src="assets/icons/postman.svg" alt="">
+                </div>
+                <h4>Postman</h4>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-6">
+              <div class="feature-box feature-box-small bg-4">
+                <div class="icon">
+                  <img src="assets/icons/docker.svg" alt="">
+                </div>
+                <h4>Docker</h4>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+
+      <!-- Mobile -->
+      <div class="col-lg-5">
+        <h3 class="section-sub-heading" data-section="technologies" data-value="mobile">Mobile</h3>
+        <div class="skill-box">
+          <div class="row g-3">
+            <div class="col-6 col-md-4 col-lg-6">
+              <div class="feature-box feature-box-small bg-1">
+                <div class="icon">
+                  <img src="assets/icons/flutter.svg" alt="">
+                </div>
+                <h4>Flutter</h4>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-6">
+              <div class="feature-box feature-box-small bg-2">
+                <div class="icon">
+                  <img src="assets/icons/kotlin.svg" alt="">
+                </div>
+                <h4>Kotlin</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Experience Section -->
+<section id="experience" data-scroll-index="3" class="section">
+  <div class="container">
+    <div class="section-heading">
+      <h2 data-section="experience" data-value="title">EXPERIENCIA</h2>
+    </div>
+    
+    <div class="row gy-4">
+      <!-- PROFESIONAL -->
+      <div class="col-12 col-xl-6">
+        <h3 class="section-sub-heading text-center" data-section="experience" data-value="subtitle-1">PROFESIONAL</h3>
+        
+        <!-- Técnico Informático -->
+        <div class="feature-box bg-1">
+          <div class="content">
+            <h4 class="mb-1" data-section="experience" data-value="professional-1-title">Técnico Informático en Instituto Tecnológico de Canarias</h4>
+            <br>
+            <span class="sub-title-color" data-section="experience" data-value="professional-1-subtitle">Prácticas [Gran Canaria, España] [Sector IT/Desarrollo Sostenible]</span>
+            <br>
+            <p data-section="experience" data-value="professional-1-p">Encargado de gestionar y mantener la infraestructura IT en las oficinas del Instituto Tecnológico de Canarias, mi rol incluía ofrecer soporte técnico a los empleados (remoto o presencial), revisar la infraestructura de red, impresoras y instalar los nuevos equipos informáticos.</p>
+            <ul class="mt-3">
+              <li data-section="experience" data-value="professional-1-li-2">Proporcioné soporte técnico a los empleados en el uso de sistemas informáticos, software de gestión y herramientas de comunicación, resolviendo incidencias y asegurando la continuidad operativa.</li>
+              <br>
+              <li data-section="experience" data-value="professional-1-li-3">Asesoré a los empleados en la resolución de incidentes recurrentes, reduciendo así las solicitudes de soporte en un 25%.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Web Developer -->
+        <div class="feature-box bg-2 mt-4">
+          <div class="content">
+            <h4 class="mb-1" data-section="experience" data-value="professional-2-title">Web Developer en Singular Factory</h4>
+            <br>
+            <span class="sub-title-color" data-section="experience" data-value="professional-2-subtitle">[Gran Canaria, España] [Desarrollo de software]</span>
+            <br>
+            <p data-section="experience" data-value="professional-2-p">Trabajé en una página web que consistía en un portal de eSports (Deportes Electrónicos) en el que se organizaban competiciones
+              de videojuegos entre empresas con el objetivo de aumentar el networking entre las mismas. La página tenía funciones como mostrar estadísticas de las partidas de los diferentes equipos compuestos
+              por las empresas, organizar las partidas, asignar los premios a los ganadores, etc.
+            </p>
+            <ul class="mt-3">
+              <li data-section="experience" data-value="professional-2-li-1">Me encargué de desarrollar la interfaz gráfica y las funcionalidades de las estadísticas.</li>
+              <br>
+              <li data-section="experience" data-value="professional-2-li-2">Las herramientas utilizadas fueron HTML, CSS, JavaScript y Bootstrap, con PostgreSQL como base de datos.</li>
+              <br>
+              <li data-section="experience" data-value="professional-2-li-3">Implementé pruebas unitarias y de integración para garantizar calidad del código (refactorización), además de su correcto funcionamiento.</li>             
+            </ul>
+          </div>
+        </div>
+
+        <!-- Desarrollador y Administrador SQL -->
+        <div class="feature-box bg-3 mt-4">
+          <div class="content">
+            <h4 class="mb-1" data-section="experience" data-value="professional-3-title">Desarrollador y Administrador SQL en MRP-Koder</h4>
+            <br>
+            <span class="sub-title-color" data-section="experience" data-value="professional-3-subtitle">[Cracovia, Polonia] [Desarrollo de software]</span>
+            <br>
+            <p data-section="experience" data-value="professional-3-p">Encargado de desarrollar y administrar bases de datos SQL para mejorar la eficiencia de los modulos de Comarch ERP además de implementar nuevas funciones.</p>
+            <ul class="mt-3">
+              <li data-section="experience" data-value="professional-3-li-1">Diseñé y optimicé consultas SQL para mejorar tiempos de respuesta en aplicaciones empresariales.</li>
+              <li data-section="experience" data-value="professional-3-li-2">Administré bases de datos relacionales de Microsoft SQL Server, asegurando la integridad y seguridad de los datos.</li>
+              <li data-section="experience" data-value="professional-3-li-3">Automatización de procesos mediante procedimientos almacenados y triggers en SQL.</li>             
+              <li data-section="experience" data-value="professional-3-li-4">Colaboré con el equipo de desarrollo para integrar soluciones eficientes de bases de datos en los sistemas ERP.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACADÉMICA -->
+      <div class="col-12 col-xl-6">
+        <h3 class="section-sub-heading text-center" data-section="experience" data-value="subtitle-2">ACADÉMICA</h3>
+
+        <!-- Desarrollo de Aplicaciones Multiplataformas -->
+        <div class="feature-box bg-2">
+          <div class="content">
+            <span data-section="experience" data-value="academic-pretitle1">Técnico Superior en </span>
+            <h4 class="mb-1" data-section="experience" data-value="academic-2-title">Desarrollo de Aplicaciones Multiplataformas</h4>
+            <span class="sub-title-color" data-section="experience" data-value="academic-2-subtitle">2022 - 2024 CIFP Villa de Aguimes [Gran Canaria, España]</span>
+            <p class="mt-3" data-section="experience" data-value="academic-2-p">Adquirí una base sólida en el desarrollo de software y exploré diversas especializaciones del sector. Esto me permite comprender la interconexión de sus distintas áreas y abordar proyectos con una visión estratégica.</p>
+          </div>
+        </div>
+
+        <!-- Sistemas Microinformáticos y Redes -->
+        <div class="feature-box bg-4 mt-4">
+          <div class="content">
+            <span data-section="experience" data-value="academic-pretitle2">Técnico Medio en </span>
+            <h4 class="mb-1" data-section="experience" data-value="academic-1-title">Sistemas Microinformáticos y Redes</h4>
+            <span class="sub-title-color" data-section="experience" data-value="academic-1-subtitle">2020 - 2022 CIFP Villa de Aguimes [Gran Canaria, España]</span>
+            <p class="mt-3" data-section="experience" data-value="academic-1-p">Esta formación me ha dado un conocimiento general sobre la informática, permitiéndome una perspectiva general de muchos ámbitos en el sector IT.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
     
 
     <!-- portfolio -->
@@ -392,7 +478,7 @@
     <section id="proyects" data-scroll-index="4" class="section bg-gray">
       <div class="container">
         <div class="section-heading">
-          <h2 data-section="projects" data-value="title">Proyectos</h2>
+          <h2 data-section="projects" data-value="title">Proyectos personales</h2>
         </div>
         <div class="portfolio-box">
 
@@ -543,7 +629,7 @@
         </section> -->
 
         <!-- Soft Skill -->
-      <section id="soft-skills" data-scroll-index="5" class="section service-section bg-gray">
+      <section id="soft-skills" data-scroll-index="5" class="section service-section bg-dark">
         <div class="container">
           <div class="section-heading">
             <h2 data-section="soft-skills" data-value="title">habilidades blandas</h2>
@@ -665,7 +751,7 @@
   <script src="libs/jquery-3.7.1/jquery.js"></script>
   <script src="libs/typed/typed.js"></script>
   <!-- <script src="libs/OwlCarousel2-2.3.4/owl.carousel.min.js"></script> -->
-  <script src="assets/js/script.js"></script>
+  <script src="assets/js/script.js" defer></script>
 </body>
 
 
