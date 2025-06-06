@@ -15,9 +15,9 @@
         "contact":"Contacto"
     },
     "about":{
-        "title":"De los Sistemas Informáticos al <span class='nowrap'>Desarrollo Backend</span>",
-        "p1":"Tras terminar mis dos cursos de formación profesional decidí especializarme en mi verdadera pasión, el desarrollo de software. He profundizado en un stack de backend con Java y SpringBoot. ",
-        "p2":"Ahora estoy abierto a trabajar en una empresa dinámica donde pueda aportar mis habilidades, seguir desarrollándome profesionalmente y contribuir al crecimiento del equipo, con el objetivo de construir una relación laboral estable y duradera."
+        "title":"De los Sistemas Informáticos al Desarrollo Web",
+        "p1":"Tras terminar mis dos cursos de formación profesional y pasar por diferentes empresas, tanto como desarrollador como técnico informático, decidí especializarme en mi verdadera pasión: el desarrollo de software, con foco en desarrollo web. Actualmente profundizo en backend con Java y Spring Boot, complementado con experiencia en desarrollo móvil usando Flutter y Kotlin. ",
+        "p2":"Busco integrarme en una empresa dinámica donde pueda aportar mis habilidades mientras continúo mi crecimiento profesional. Mi objetivo es establecer relaciones laborales estables donde pueda contribuir significativamente al éxito del equipo."
     },
     "technologies":{
         "title":"Tecnologías Destacadas",

@@ -403,7 +403,7 @@ a:hover{
 
 /* about */
 .about-text p{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 @media (max-width: 767px){

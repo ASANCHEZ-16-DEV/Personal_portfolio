@@ -132,45 +132,40 @@
     </section>
 
     <!-- ? About Section -->
-    <section id="about" data-scroll-index="1" class="section">
-      <div class="container">
-        <div class="row gy-5 align-items-center">
-          <div class="col-lg-6 order-2 order-lg-1 text-center">
-            <source srcset="assets/images/about-mobile.webp" media="(max-width: 767px)">
-            <source srcset="assets/images/about.webp" media="(min-width: 768px)">
-            <img class="about-image" src="assets/images/about.webp" alt="">
-          </picture>
-            <!-- <img class="about-image" src="assets/images/about.webp" alt=""> -->
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2 ps-lg-5">
-            <div class="about-text">
-              <h2 class="h1 mb-3 text-dark fw-semibold text-center" data-section="about" data-value="title">
-                De los Sistemas Informáticos al <span class="nowrap">Desarrollo Backend</span>
-              </h2>
-              <p data-section="about" data-value="p1">Tras terminar mis dos cursos de formación profesional decidí especializarme en mi 
-                verdadera pasión, el desarrollo de software. He profundizado en un stack de backend con Java y SpringBoot. 
-              </p>
-              <p data-section="about" data-value="p2">
-                Ahora estoy abierto a trabajar en una empresa dinámica donde pueda aportar mis habilidades, seguir desarrollándome profesionalmente y contribuir al crecimiento del equipo, 
-                con el objetivo de construir una relación laboral estable y duradera.
-                </p>
-              <!-- <div class="row pt-2">
-                <div class="col-6 col-md-4">
-                  <h3 class="text-theme fw-semibold fs-4 mb-0">+250</h3>
-                  <span class="text-dark">años experiencia</span>
-                </div>
-                <div class="col-6 col-md-4">
-                  <h3 class="text-theme fw-semibold fs-4 mb-0">+200</h3>
-                  <span class="text-dark">años experiencia</span>
-                </div>
-              </div> -->
-            </div>
+<section id="about" data-scroll-index="1" class="section">
+  <div class="container">
+    <div class="row gy-5 align-items-center">
+      <!-- Imagen (columna más estrecha) -->
+      <div class="col-lg-5 order-2 order-lg-1 text-center">
+        <picture>
+          <source srcset="assets/images/about-mobile.webp" media="(max-width: 767px)">
+          <source srcset="assets/images/about.webp" media="(min-width: 768px)">
+          <img class="about-image img-fluid rounded-3" src="assets/images/about.webp" alt="Sobre mí - Desarrollo web">
+        </picture>
+      </div>
+      
+      <!-- Texto (columna más ancha) -->
+      <div class="col-lg-7 order-1 order-lg-2 ps-lg-4">
+        <div class="about-text">
+          <h2 class="display-5 mb-4 text-dark fw-semibold" data-section="about" data-value="title">
+            De los Sistemas Informáticos al <span class="nowrap">Desarrollo Web</span>
+          </h2>
+          
+          <div class="pe-lg-5"> <!-- Padding derecho adicional -->
+            <p class="lead mb-4" data-section="about" data-value="p1">
+              Tras terminar mis dos cursos de formación profesional y pasar por diferentes empresas, tanto como desarrollador como técnico informático, decidí especializarme en mi verdadera pasión: el desarrollo de software, con foco en desarrollo web. Actualmente profundizo en backend con Java y Spring Boot, complementado con experiencia en desarrollo móvil usando Flutter y Kotlin.
+            </p>
+            
+            <p class="lead mb-0" data-section="about" data-value="p2">
+              Busco integrarme en una empresa dinámica donde pueda aportar mis habilidades mientras continúo mi crecimiento profesional. Mi objetivo es establecer relaciones laborales estables donde pueda contribuir significativamente al éxito del equipo.
+            </p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-<!-- TODO: Corregir la funcion de ocultar y mostrar las tecs de dev  para mostrar las de sistemas -->
 <!-- ? Skill Section -->
 <section id="technologies" data-scroll-index="2" class="section bg-gray">
   <div class="container">
