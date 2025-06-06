@@ -30,26 +30,35 @@
     "subtitle-2": "Academic",
     
     "professional-1-title": "IT Technician at Instituto Tecnológico de Canarias",
-    "professional-1-subtitle": "Internship [Gran Canaria, Spain] [IT/Sustainable Development Sector]",
+    "professional-1-subtitle": "Internship [Gran Canaria, Spain] [IT Tech] [Internship - 2 months]",
     "professional-1-p": "Responsible for managing and maintaining the IT infrastructure in the offices of Instituto Tecnológico de Canarias, my role included providing technical support to employees (remote or on-site), reviewing network infrastructure, printers, and installing new computer equipment.",
     "professional-1-li-2": "Provided technical support to employees in the use of computer systems, management software, and communication tools, resolving issues and ensuring operational continuity.",
     "professional-1-li-3": "Advised employees on resolving recurring incidents, thus reducing support requests by 25%.",
     
     "professional-2-title": "Web Developer at Singular Factory",
-    "professional-2-subtitle": "[Gran Canaria, Spain] [Software Development]",
+    "professional-2-subtitle": "[Gran Canaria, Spain] [Software Development] [Internship - 2 months]",
     "professional-2-p": "I worked on a website that was an eSports portal where video game competitions were organized between companies to increase networking. The site had features like displaying match statistics of different teams composed of companies, organizing matches, assigning prizes to winners, etc.",
     "professional-2-li-1": "I was responsible for developing the graphical interface and the functionalities for statistics.",
     "professional-2-li-2": "The tools used were HTML, CSS, JavaScript, and Bootstrap, with PostgreSQL as the database.",
     "professional-2-li-3": "Implemented unit and integration tests to ensure code quality (refactoring), as well as its proper functionality.",
     
     "professional-3-title": "SQL Developer and Administrator at MRP-Koder",
-    "professional-3-subtitle": "[Kraków, Poland] [Software Development]",
+    "professional-3-subtitle": "[Kraków, Poland] [Software Development] [Internship - 2 months]",
     "professional-3-p": "Developing and managing SQL databases to improve the efficiency and performance of Comarch ERP modules.",
     "professional-3-li-1": "Designed and optimized SQL queries to improve response times in business applications.",
     "professional-3-li-2": "Managed relational databases, ensuring data integrity and security.",
     "professional-3-li-3": "Automated processes using stored procedures and triggers in SQL.",
     "professional-3-li-4": "Collaborated with the development team to integrate efficient database solutions into ERP systems.",
 
+    "professional-4-title": "IT Technician at Ateneo Santa Lucía",
+    "professional-4-subtitle": "[Gran Canaria, Spain] [IT Tech] [Work - 3 months]",
+    "professional-4-p": "At this company, which is owned by the Santa Lucía de Tirajana Town Council, I was responsible for providing IT support to the company's employees, both remotely and in person, ensuring the continuous operation of the equipment and dealing with various incidents through a ticket system.",
+    "professional-4-li-1": "Diagnosed and resolved network issues across the organization that prevented internet access.",
+    "professional-4-li-3": "Troubleshot and repaired workstations with hardware issues such as damaged power supplies and defective RAM modules.",
+    "professional-4-li-4": "Developed PowerShell scripts to automate repetitive tasks and resolve recurring technical issues efficiently.",
+    "professional-4-li-5": "Provided both on-site and remote IT support using RustDesk, addressing user incidents and service requests.",
+
+    
         "academic-pretitle1":"High-Level Technician in",
         "academic-1-title":"Microcomputer Systems and Networks",
         "academic-1-subtitle":"2020 - 2022 CIFP Villa de Agüimes [Gran Canaria, Spain]",
@@ -59,13 +68,15 @@
         "academic-2-subtitle":"2022 - 2024 CIFP Villa de Agüimes [Gran Canaria, Spain]",
         "academic-2-p":"I acquired a solid foundation in software development and explored various specializations within the industry. This allows me to understand the interconnection of different areas and approach projects with a strategic vision."
     },
-    "projects":{
-        "title":"Personal Projects",
-        "button-code":"CODE",
-        "project-1-title":"FEIX SALONES APP",
-        "project-1-p1":"I developed a mobile application as my final project for vocational training. It focused on appointment management for a hair salon, also providing information about available services. Additionally, it featured a shorts section (short videos) showcasing the best haircuts from the salon.",
-        "project-1-p2":"Currently, the code is publicly available on my GitHub profile, as it is just a prototype application."
+
+        "projects": {
+    "title": "Personal Projects",
+    "button-code": "CODE",
+    "project-1-title": "STAFF DIRECTORY",
+    "project-1-p1": "Web-based staff directory using PHP, HTML, CSS, and MariaDB to display employee contact information, with filtering functions and an admin interface to create, update, and delete records by the system administrator.",
+    "project-1-p2": "Currently, the code is publicly available on my GitHub profile as it is just a prototype application."
     },
+
     "soft-skills":{
         "title":"Soft Skills",
         "soft-skill-1-title":"Teamwork",
@@ -78,7 +89,7 @@
         "soft-skill-4-p":"I have learned to receive constructive criticism by being in contexts where feedback is a crucial part of the improvement process. Over time, I have developed the ability to listen, reflect, and apply others' suggestions effectively, using criticism as a valuable tool for personal and professional growth."
     },
     "footer":{
-        "developed":"Developed with <img src='assets/icons/favicon.svg' width='20px' alt='passion'><span style='color: transparent;'>GG</span> by",
+        "developed":"Developed by",
         "code":"Code"
     }
 }

@@ -537,6 +537,16 @@ a:hover{
     transform: translateY(-5px); /* Eleva la tarjeta */
 }
 
+.feature-box ul li {
+  margin-bottom: 12px; /* Espaciado entre puntos */
+  line-height: 1.6; /* Mejora la legibilidad */
+}
+.feature-box p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+
 @media (max-width: 767px) {
     .feature-box {
         padding: 30px;

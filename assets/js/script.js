@@ -15,10 +15,15 @@ const changeLanguage = async (language) => {
     textToChange.innerHTML = texts[section][value];
   }
   if (language === 'es') {
-    cvLink.href = 'assets/downloads/CV - David García González - ES.pdf';
-  } else {
+    cvLink.href = 'assets/downloads/CV - CV - Aitor Sánchez Jiménez.pdf';
+  } 
+
+  /**
+   * else {
     cvLink.href = 'assets/downloads/CV - David García González - EN.pdf';
-  }
+   }
+  */
+  
 };
 
 flagsElement.addEventListener('click', (e) => {
@@ -45,7 +50,7 @@ $(document).ready(function () {
 
   // Typing animation
   new Typed('#type-it', {
-    strings: ['Backend<br>Developer'],
+    strings: ['Web<br>Developer'],
     typeSpeed: 100,
   });
 
@@ -115,7 +120,11 @@ document.addEventListener('DOMContentLoaded', function () {
   onScroll(); // Llamar a la función para establecer la sección activa al cargar la página
 });
 
-document.addEventListener('DOMContentLoaded', function () {
+
+/**
+ * 
+ * Script for changing skills, pending to implement
+ * document.addEventListener('DOMContentLoaded', function () {
   console.log('Iniciando el cambio de skills');
   const currentSkills = document.getElementById('current-skills');
   const nextSkills = document.getElementById('next-skills');
@@ -134,3 +143,22 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log('Estado de next-skills: ', nextSkills.classList.contains('active') ? 'Visible' : 'Oculto');
   });
 });
+ */
+
+
+ // ? Script for image zoom     
+    document.addEventListener('DOMContentLoaded', function () {
+      const carouselImages = document.querySelectorAll('.carousel-item img');
+      const modalImage = document.getElementById('modalImage');
+      const imageModal = new bootstrap.Modal(document.getElementById('imageModal'));
+
+      carouselImages.forEach(img => {
+        img.style.cursor = 'zoom-in';
+        img.addEventListener('click', () => {
+          modalImage.src = img.src;
+          modalImage.alt = img.alt;
+          imageModal.show();
+        });
+      });
+    });
+  
